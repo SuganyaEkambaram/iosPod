@@ -1,0 +1,6 @@
+framework module iosFile {
+  umbrella header "iosFile-umbrella.h"
+
+  export *
+  module * { export * }
+}

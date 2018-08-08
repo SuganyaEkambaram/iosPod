@@ -1,0 +1,22 @@
+{
+  "name": "iosFile",
+  "version": "0.1.0",
+  "summary": "A short description of iosFile.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Suganya/iosFile",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Suganya": "suganyaa.3010@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Suganya/iosFile.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iosFile/Classes/**/*"
+}
