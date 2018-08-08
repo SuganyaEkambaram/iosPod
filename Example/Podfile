@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iosFile_Example' do
+  pod 'iosFile', :path => '../'
+
+  target 'iosFile_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
