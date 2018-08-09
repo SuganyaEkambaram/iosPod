@@ -23,6 +23,7 @@ class SampleViewController: UIViewController {
 
 }
 
+//public class to access
 public class sample {
     
     public func showit(str: String) {

@@ -70,6 +70,39 @@ public class ModifiedButton : UIButton {
         self.titleLabel?.attributedText = mutableString
     }
     */
+    
+}
+
+public class alertManager {
+    
+    public func showToastAlert(title: String? = nil,
+                               message: String? = nil,
+                               viewController: UIViewController,
+                               completion: ((UIAlertAction) -> Void)? = nil) {
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        viewController.present(alert, animated: true, completion: {
+            
+            let when = DispatchTime.now() + 0.7
+            DispatchQueue.main.asyncAfter(deadline: when){
+                // your code with delay
+                alert.dismiss(animated: true, completion: nil)
+            }
+        })
+        
+    }
+    
+    public func showOkAlert(title: String? = nil,
+                            message: String? = nil,
+                            viewController: UIViewController,
+                            completion: ((UIAlertAction) -> Void)? = nil) {
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: Localization(Strings.OK), style: UIAlertActionStyle.cancel,
+                                      handler: completion))
+        
+        viewController.present(alert, animated: true, completion:nil)
+    }
 }
 
 
