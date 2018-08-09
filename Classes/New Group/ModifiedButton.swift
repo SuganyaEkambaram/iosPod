@@ -98,7 +98,7 @@ public class alertManager {
                             completion: ((UIAlertAction) -> Void)? = nil) {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: Localization(Strings.OK), style: UIAlertActionStyle.cancel,
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel,
                                       handler: completion))
         
         viewController.present(alert, animated: true, completion:nil)
