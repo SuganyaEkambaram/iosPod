@@ -73,9 +73,11 @@ public class ModifiedButton : UIButton {
     
 }
 
-public class alertManager {
+open class alertManager {
     
-    public func showToastAlert(title: String? = nil,
+    let alert = alertManager()
+    
+     func showToastAlert(title: String? = nil,
                                message: String? = nil,
                                viewController: UIViewController,
                                completion: ((UIAlertAction) -> Void)? = nil) {
@@ -92,7 +94,7 @@ public class alertManager {
         
     }
     
-    public func showOkAlert(title: String? = nil,
+     func showOkAlert(title: String? = nil,
                             message: String? = nil,
                             viewController: UIViewController,
                             completion: ((UIAlertAction) -> Void)? = nil) {

@@ -24,9 +24,11 @@ class SampleViewController: UIViewController {
 }
 
 //public class to access
-public class sample {
+open class sample {
     
-    public func showit(str: String) {
+    let val = sample()
+    
+     func showit(str: String) {
         
         print("\(str)")
     }
