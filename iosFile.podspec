@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iosFile'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   #s.swift_version    = '>= 3.0'
   s.summary          = 'Pod file for File creation'
 
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iosFile/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'iosFile' => ['iosFile/Assets/*.png']
