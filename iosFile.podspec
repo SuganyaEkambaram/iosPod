@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iosFile'
-  s.version          = '0.2.8'
+  s.version          = '0.2.9'
   #s.swift_version    = '>= 3.0'
   s.summary          = 'Pod file for File creation'
 
