@@ -21,9 +21,13 @@ class SampleViewController: UIViewController {
     }
     
 
+}
+
+public class sample {
+    
     public func showit(str: String) {
         
         print("\(str)")
     }
-
+    
 }
